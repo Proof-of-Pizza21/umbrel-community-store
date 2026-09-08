@@ -1,0 +1,9 @@
+# Runtime archives and secrets remain on the Umbrel device.
+**/data/*
+!**/data/.gitkeep
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+**/seccomp-profile.json
