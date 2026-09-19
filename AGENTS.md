@@ -1,37 +1,37 @@
 # Landing Archive Community Store
 
-## Identità permanente
+## Permanent identity
 
-Per questo repository usare esclusivamente:
+For this repository, use only:
 
-- Git author/committer name e account GitHub: `Proof-of-Pizza21`.
+- Git author/committer name and GitHub account: `Proof-of-Pizza21`.
 - Git author/committer email: `259956083+Proof-of-Pizza21@users.noreply.github.com`.
 
-Questa istruzione sostituisce qualsiasi identità diversa ereditata dalla directory
-superiore o dalla configurazione globale. Prima di commit, tag e pubblicazioni
-verificare la configurazione Git locale e l'identità effettiva di autore e
-committer. Prima di pubblicare verificare anche l'account GitHub autenticato.
-Non modificare chiavi di firma senza verificarne l'appartenenza all'account.
+This instruction overrides any different identity inherited from a parent
+directory or global configuration. Before commits, tags, and publications,
+verify local Git configuration and the effective author and committer identities.
+Before publishing, also verify the authenticated GitHub account. Do not modify
+signing keys without verifying that they belong to the account.
 
 ## Privacy
 
-Il nome e il cognome reali dell'utente non devono comparire in file, percorsi
-versionati, metadati, commit, tag, release o artefatti. L'unica identità pubblica
-consentita è quella indicata sopra. Prima di ogni push controllare file nascosti,
-contenuto selezionato e tutta la cronologia da pubblicare.
+The user's real first and last names must not appear in files, versioned paths,
+metadata, commits, tags, releases, or artifacts. The only permitted public identity
+is the one above. Before each push, check hidden files, selected content, and the
+entire history to be published.
 
-Non includere URL personali di collaudo, archivi di siti, credenziali, log,
-percorsi locali o dati del dispositivo. La directory dati del pacchetto contiene
-soltanto `.gitkeep`; i dati creati durante l'uso restano sul dispositivo Umbrel.
+Do not include personal test URLs, website archives, credentials, logs, local
+paths, or device data. The package data directory contains only `.gitkeep`; data
+created during use stays on the Umbrel device.
 
-## Pacchetto
+## Package
 
-L'identificatore dello store è `proof-of-pizza21`; quello dell'app è
-`proof-of-pizza21-landing-archive`. Mantenerli stabili dopo la prima installazione.
-La prima anteprima è per `linux/amd64`, destinata al collaudo su umbrelOS 1.7.4.
-Usare soltanto immagini pubblicate e provate con digest verificato. Non dichiarare
-eseguiti test sul dispositivo se non sono stati realmente completati.
+The store identifier is `proof-of-pizza21`; the app identifier is
+`proof-of-pizza21-landing-archive`. Keep them stable after the first installation.
+The initial preview targets `linux/amd64` and validation on umbrelOS 1.7.4.
+Use only published and tested images with a verified digest. Do not claim device
+tests were completed unless they actually were.
 
-Conservare `LICENSE-PLAYWRIGHT` insieme al profilo seccomp derivato da Playwright.
-Il file `seccomp-profile.json` è generato da Umbrel dal template durante
-l'installazione; non deve essere versionato.
+Keep `LICENSE-PLAYWRIGHT` alongside the seccomp profile derived from Playwright.
+Umbrel generates `seccomp-profile.json` from the template during installation;
+do not commit that generated file.
